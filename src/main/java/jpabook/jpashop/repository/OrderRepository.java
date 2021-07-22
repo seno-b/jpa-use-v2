@@ -41,4 +41,8 @@ public class OrderRepository {
                         " join fetch o.delivery d", Order.class
         ).getResultList();
     }
+
+    public List<SimpleOrderQueryDto> findOrderDtos() {
+
+    }
 }
