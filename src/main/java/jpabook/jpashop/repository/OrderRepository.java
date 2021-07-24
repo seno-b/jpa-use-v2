@@ -42,7 +42,4 @@ public class OrderRepository {
         ).getResultList();
     }
 
-    public List<SimpleOrderQueryDto> findOrderDtos() {
-
-    }
 }
